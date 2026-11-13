@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudio de mercado – Naves industriales en Chorrillos y alrededores</title>
+<style>
+:root{--azul:#1e4e8c;--azul2:#e8eef7;--gris:#5b6472;--amar:#fff3c4;--borde:#d7dde6;--fondo:#f5f7fa}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1f2933;background:var(--fondo);line-height:1.55}
+.topbar{background:#163a6b;color:#fff;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;text-align:center}
+header{background:var(--azul);color:#fff;padding:32px 20px 26px}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header .tag{display:inline-block;background:rgba(255,255,255,.18);padding:3px 10px;border-radius:99px;font-size:13px;letter-spacing:.04em}
+h1{font-size:clamp(24px,5vw,38px);margin:12px 0 6px;line-height:1.15}
+header p{margin:0;opacity:.92;font-size:clamp(15px,2.4vw,18px)}
+main{padding:24px 0 48px}
+section{background:#fff;border:1px solid var(--borde);border-radius:12px;padding:22px;margin:18px 0}
+h2{color:var(--azul);font-size:21px;margin:0 0 12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:8px}
+.kpi{background:var(--azul2);border-radius:10px;padding:14px}
+.kpi b{display:block;font-size:20px;color:var(--azul)}
+.kpi span{font-size:14px;color:var(--gris)}
+.nota{font-size:14px;color:var(--gris)}
+.cards{display:flex;flex-direction:column;gap:18px;margin:0;padding:0;list-style:none}
+.card{background:#fff;border:1px solid var(--borde);border-radius:12px;overflow:hidden}
+.carousel{position:relative;background:#d7dde6;aspect-ratio:16/9;overflow:hidden;user-select:none}
+.carousel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+.carousel img.on{display:block}
+.carousel .empty{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--gris);font-size:15px;background:var(--azul2)}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border:0;border-radius:50%;background:rgba(15,30,55,.72);color:#fff;font-size:22px;cursor:pointer;line-height:1;display:flex;align-items:center;justify-content:center}
+.nav:hover{background:rgba(15,30,55,.9)}
+.nav.prev{left:10px}
+.nav.next{right:10px}
+.nav[disabled]{opacity:.35;cursor:default}
+.counter{position:absolute;right:10px;bottom:10px;background:rgba(15,30,55,.75);color:#fff;font-size:12px;padding:3px 8px;border-radius:99px}
+.dots{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);display:flex;gap:5px}
+.dots button{width:8px;height:8px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.55);cursor:pointer}
+.dots button.on{background:#fff}
+.meta{padding:16px 18px 18px}
+.meta .dist{font-size:13px;color:var(--azul);font-weight:600;letter-spacing:.02em;text-transform:uppercase;margin:0 0 4px}
+.meta h3{margin:0 0 10px;font-size:19px;color:#1f2933}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:0 0 12px}
+.fact{background:var(--azul2);border-radius:8px;padding:8px 10px}
+.fact b{display:block;color:var(--azul);font-size:16px}
+.fact span{font-size:12px;color:var(--gris)}
+.feats{margin:0 0 12px;padding-left:18px;font-size:14.5px}
+.feats li{margin:3px 0}
+.foto-nota{font-size:12px;color:var(--gris);margin:0 0 10px}
+a.btn{display:inline-block;background:var(--azul);color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;font-size:14px}
+a.btn:hover{background:#163a6b}
+.cta-mini{font-size:13px;color:var(--gris);margin:8px 0 0}
+.conclusion p{margin:0 0 12px}
+.conclusion p:last-child{margin:0}
+footer{text-align:center;font-size:13px;color:var(--gris);padding:8px 20px 28px;max-width:960px;margin:0 auto}
+footer a{color:var(--azul)}
+@media (max-width:600px){section{padding:16px}.meta{padding:14px}.nav{width:32px;height:32px}}
+@media print{body{background:#fff}.nav,.dots,.topbar{display:none} .card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="topbar">Estudio de mercado</div>
+<header><div class="wrap">
+  <span class="tag">CHORRILLOS Y ALREDEDORES · 13 NOV 2026</span>
+  <h1>Estudio de mercado: alquiler de naves industriales</h1>
+  <p>Muestra de avisos vigentes en Chorrillos, Lurín, Villa El Salvador y Sumac Pacha (Lima).</p>
+</div></header>
+
+<main class="wrap">
+
+<section>
+  <h2>Alcance de esta revisión</h2>
+  <p>Se revisaron avisos de alquiler de naves, almacenes y locales industriales publicados en Urbania, Adondevivir, InfoCasas, Bienesonline y LaEncontre, el 13 de noviembre de 2026 (hora de Lima). Abajo va una muestra de nueve avisos, con Chorrillos primero. Los precios y características se tomaron de cada ficha; no se inventaron cifras.</p>
+  <div class="kpis">
+    <div class="kpi"><b>9 avisos</b><span>en esta muestra</span></div>
+    <div class="kpi"><b>750 a 4,786 m²</b><span>rango de áreas de la muestra</span></div>
+    <div class="kpi"><b>Chorrillos primero</b><span>luego VES, Lurín y Sumac Pacha</span></div>
+    <div class="kpi"><b>+ IGV</b><span>cuando el aviso lo indica</span></div>
+  </div>
+  <p class="nota" style="margin:14px 0 0">Como referencia de presupuesto, una operación de metalmecánica busca de 3,000 a 3,500 m² en Chorrillos o alrededores, a USD 5,000 al mes. Ese dato sirve para leer la conclusión; no es un aviso de esta lista.</p>
+</section>
+
+<section style="background:transparent;border:0;padding:0">
+  <h2 style="padding:0 4px">Avisos revisados</h2>
+  <ul class="cards">
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/campina-01.jpg" alt="Nave con racks en La Campiña, Chorrillos">
+        <img src="fotos/campina-02.jpg" alt="Ambiente interior del centro logístico en La Campiña">
+        <img src="fotos/campina-03.jpg" alt="Área interior del inmueble en La Campiña">
+        <img src="fotos/campina-04.jpg" alt="Instalaciones del centro logístico en La Campiña">
+        <img src="fotos/campina-05.jpg" alt="Espacio operativo en La Campiña, Chorrillos">
+        <img src="fotos/campina-06.jpg" alt="Servicios higiénicos del inmueble en La Campiña">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 6</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <p class="dist">Chorrillos · La Campiña</p>
+        <h3>Centro logístico de 1,400 m²</h3>
+        <p class="foto-nota">Fotos: capturas del video publicado en el anuncio de Urbania.</p>
+        <div class="facts">
+          <div class="fact"><b>1,400 m²</b><span>terreno total</span></div>
+          <div class="fact"><b>USD 10,500</b><span>renta mensual</span></div>
+          <div class="fact"><b>USD 7.50/m²</b><span>calculado sobre 1,400 m²</span></div>
+        </div>
+        <ul class="feats">
+          <li>Almacén y patio de maniobras: 1,050 m². Oficinas: 645 m² en 3 niveles.</li>
+          <li>Racks para 1,200 posiciones de pallet (retirables) y apilador incluidos.</li>
+          <li>Ingreso para contenedores de 40 pies. Energía trifásica de 31 kW, ampliable.</li>
+          <li>Altura de almacenamiento: 6 m. A 500 m de la Panamericana Sur.</li>
+          <li>El aviso suma un 5 % de impuesto, contrato mínimo de 3 años, 3 meses de garantía y 1 de adelanto.</li>
+        </ul>
+        <a class="btn" href="https://urbania.pe/inmueble/clasificado/alclniin-alquiler-de-local-industrial-en-chorrillos-lima-149102333" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/alameda-01.jpg" alt="Fachada de nave de techo parabólico en Chorrillos">
+        <img src="fotos/alameda-02.jpg" alt="Nave industrial en Chorrillos, cerca de Prolongación Huaylas">
+        <img src="fotos/alameda-03.jpg" alt="Acceso de la nave en Av. Alameda Sur, Chorrillos">
+        <img src="fotos/alameda-04.jpg" alt="Vista del inmueble en Chorrillos">
+        <img src="fotos/alameda-05.jpg" alt="Exterior de la nave en Chorrillos">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 5</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <p class="dist">Chorrillos · Av. Alameda Sur / Prolongación Huaylas</p>
+        <h3>Nave de techo parabólico, 1,572 m²</h3>
+        <div class="facts">
+          <div class="fact"><b>1,572 m²</b><span>área cubierta y terreno</span></div>
+          <div class="fact"><b>USD 7,860 + IGV</b><span>calculado: USD 5 × 1,572 m²</span></div>
+          <div class="fact"><b>USD 5.00/m² + IGV</b><span>precio por m² del aviso</span></div>
+        </div>
+        <ul class="feats">
+          <li>Techo parabólico. 150 m² de oficinas.</li>
+          <li>Puerta amplia para ingreso de contenedores.</li>
+          <li>Condiciones del aviso: 2×1 (garantía y adelanto).</li>
+        </ul>
+        <a class="btn" href="https://bienesonline.ai/es/peru/av-alameda-sur/propiedad/122669-chorrillos-alquilo-nave-techo-alto-area-1572-m2-bien-ubicado-cerca-prolog-huaylas" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/cho1300-01.jpg" alt="Interior de local industrial de 1,300 m² en Chorrillos">
+        <img src="fotos/cho1300-02.jpg" alt="Nave del local industrial en Chorrillos">
+        <img src="fotos/cho1300-03.jpg" alt="Área interior del local de 1,300 m² en Chorrillos">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 3</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <p class="dist">Chorrillos</p>
+        <h3>Local industrial de 1,300 m²</h3>
+        <div class="facts">
+          <div class="fact"><b>1,300 m²</b><span>área edificada</span></div>
+          <div class="fact"><b>S/ 22,500</b><span>renta mensual (el aviso no cotiza en USD)</span></div>
+          <div class="fact"><b>—</b><span>USD/m² no publicado</span></div>
+        </div>
+        <ul class="feats">
+          <li>Nave industrial, patio de maniobras, sala de reuniones y estacionamiento.</li>
+          <li>Sistema eléctrico trifásico, pozo a tierra, tanque elevado.</li>
+          <li>Baños diferenciados, camerinos y un baño en la sala de reuniones.</li>
+          <li>Cerca de Av. Huaylas. Zonificación CZ y CI, según el aviso.</li>
+        </ul>
+        <a class="btn" href="https://www.infocasas.com.pe/se-alquila-amplio-local-industrial-en-chorrillos/191151148" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/cho1004-01.jpg" alt="Portón de almacén en Urb. Villa Marina, Chorrillos">
+        <img src="fotos/cho1004-02.jpg" alt="Local en Villa Marina, Chorrillos">
+        <img src="fotos/cho1004-03.jpg" alt="Acceso del almacén en Villa Marina">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 3</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <p class="dist">Chorrillos · Urb. Villa Marina</p>
+        <h3>Almacén de 1,004 m²</h3>
+        <div class="facts">
+          <div class="fact"><b>1,004 m²</b><span>área edificada</span></div>
+          <div class="fact"><b>S/ 14,364</b><span>renta mensual (el aviso no cotiza en USD)</span></div>
+          <div class="fact"><b>—</b><span>USD/m² no publicado</span></div>
+        </div>
+        <ul class="feats">
+          <li>Almacén en urbanización Villa Marina.</li>
+          <li>Pozo a tierra, cocheras para visitas, ingreso de camionetas y montacargas.</li>
+          <li>Caseta para guardián con baño, según el aviso.</li>
+        </ul>
+        <a class="btn" href="https://www.infocasas.com.pe/alquiler-local-chorrillos/190801456" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <div class="empty">Sin fotos disponibles</div>
+      </div>
+      <div class="meta">
+        <p class="dist">Chorrillos · Av. Defensores del Morro 4263</p>
+        <h3>Almacén y oficinas de 3,300 m²</h3>
+        <p class="foto-nota">El aviso tiene fotos en Urbania y Adondevivir, pero el servidor de imágenes bloqueó la descarga. Se deja el enlace al anuncio.</p>
+        <div class="facts">
+          <div class="fact"><b>3,300 m²</b><span>total y techado</span></div>
+          <div class="fact"><b>USD 24,750 + IGV</b><span>renta + mantenimiento</span></div>
+          <div class="fact"><b>USD 7.50/m² + IGV</b><span>incluye mantenimiento, según el aviso</span></div>
+        </div>
+        <ul class="feats">
+          <li>Altura 9 m. Zonificación industrial. Contrato forzoso de 36 meses; 2 meses de garantía y 2 de adelanto.</li>
+          <li>Grupo electrógeno, vigilancia 24/7, videovigilancia, sistema contra incendios y patio de maniobras compartido.</li>
+          <li>Es la opción de 3,000 m² o más más clara que se encontró en Chorrillos.</li>
+        </ul>
+        <a class="btn" href="https://urbania.pe/inmueble/clasificado/alclniin-alquiler-de-local-industrial-en-chorrillos-lima-146052889" target="_blank" rel="noopener">Ver anuncio</a>
+        <p class="cta-mini">También en Adondevivir: <a href="https://www.adondevivir.com/propiedades/clasificado/alclniin-alquiler-almacen-y-oficinas-chorrillos-3-300-m-sup2-146053018.html" target="_blank" rel="noopener">ficha 146053018</a>.</p>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/ves-01.jpg" alt="Taller en Villa El Salvador con puentes grúa y pórtico">
+        <img src="fotos/ves-02.jpg" alt="Nave industrial en Villa El Salvador">
+        <img src="fotos/ves-03.jpg" alt="Área de taller en Villa El Salvador">
+        <img src="fotos/ves-04.jpg" alt="Instalaciones del local industrial en Villa El Salvador">
+        <img src="fotos/ves-05.jpg" alt="Nave para fabricación de piezas metálicas">
+        <img src="fotos/ves-06.jpg" alt="Vista del taller de maestranza y soldadura">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 6</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <p class="dist">Villa El Salvador</p>
+        <h3>Taller de maestranza y soldadura, 1,542 m²</h3>
+        <div class="facts">
+          <div class="fact"><b>1,542 m²</b><span>área del aviso</span></div>
+          <div class="fact"><b>USD 12,500</b><span>renta mensual</span></div>
+          <div class="fact"><b>USD 8.11/m²</b><span>calculado sobre 1,542 m²</span></div>
+        </div>
+        <ul class="feats">
+          <li>3 puentes grúa de 2 t y 1 grúa pórtico de 10 t.</li>
+          <li>Taller de maestranza y soldadura, más nave para fabricación de piezas metálicas y almacén.</li>
+          <li>Oficinas, almacén, baños, vestidores y comedor. Redes trifásicas.</li>
+          <li>El metraje es menor a 3,000 m², pero es el aviso más alineado con una operación de soldadura.</li>
+        </ul>
+        <a class="btn" href="https://www.infocasas.com.pe/alquiler-de-local-industrial-en-villa-el-salvador-609-917-2/192067184" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/sanpedro-01.jpg" alt="Interior de la nave de 2,500 m² en San Pedro, Lurín">
+        <img src="fotos/sanpedro-02.jpg" alt="Nave industrial en San Pedro, Lurín">
+        <img src="fotos/sanpedro-03.jpg" alt="Estructura de la nave en Lurín">
+        <img src="fotos/sanpedro-04.jpg" alt="Área interior del local de 3,700 m² en Lurín">
+        <img src="fotos/sanpedro-05.jpg" alt="Local industrial en San Pedro, Lurín">
+        <img src="fotos/sanpedro-06.jpg" alt="Vista del inmueble en San Pedro, Lurín">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 6</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <p class="dist">Lurín · San Pedro</p>
+        <h3>Local industrial de 3,700 m² (estreno)</h3>
+        <div class="facts">
+          <div class="fact"><b>3,700 m²</b><span>área total</span></div>
+          <div class="fact"><b>USD 17,500</b><span>renta mensual (S/ 59,675 en Urbania)</span></div>
+          <div class="fact"><b>USD 4.73/m²</b><span>calculado sobre 3,700 m²</span></div>
+        </div>
+        <ul class="feats">
+          <li>Nave de 2,500 m², patio de maniobras de 1,050 m² y 2 oficinas de 150 m² cada una.</li>
+          <li>Energía de 50 kW, ampliable. Losa de concreto de 20 cm. Muros de 6.20 m. Portón metálico de 5 m.</li>
+          <li>Cerca de la Panamericana Sur. Inscrito en SUNARP, según el aviso.</li>
+        </ul>
+        <a class="btn" href="https://urbania.pe/inmueble/clasificado/alclniin-alquiler-de-local-industrial-en-lurin-lima-151535727" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <div class="empty">Sin fotos disponibles</div>
+      </div>
+      <div class="meta">
+        <p class="dist">Lurín · Condominio Industrial Praderas de Lurín</p>
+        <h3>Predio de 4,786 m², con estructura para puente grúa</h3>
+        <p class="foto-nota">El aviso tiene 15 fotos en Urbania, pero el servidor de imágenes bloqueó la descarga. Se deja el enlace al anuncio.</p>
+        <div class="facts">
+          <div class="fact"><b>4,786.25 m²</b><span>área total ocupada</span></div>
+          <div class="fact"><b>USD 26,324.38 + IGV</b><span>renta mensual</span></div>
+          <div class="fact"><b>USD 5.50/m² + IGV</b><span>precio por m² del aviso</span></div>
+        </div>
+        <ul class="feats">
+          <li>Nave 2,272.88 m², oficina 209.72 m², patios 2,303.65 m². Techado total: 2,482.60 m².</li>
+          <li>Estructura para montar puente grúa. Altura de nave: 11 m. Losa en el 100 % del predio.</li>
+          <li>Zonificación I2. Seguridad 24 horas. Cisternas propias del parque (1,100 m³).</li>
+        </ul>
+        <a class="btn" href="https://urbania.pe/inmueble/clasificado/alclniin-alquiler-de-local-industrial-en-las-praderas-de-lurin-lurin-146873808" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <div class="empty">Sin fotos disponibles</div>
+      </div>
+      <div class="meta">
+        <p class="dist">Sumac Pacha · Punta Hermosa / Lurín</p>
+        <h3>Almacén de 1,650 m²</h3>
+        <p class="foto-nota">Urbania lo lista en Agropecuaria Sumac Pacha, Punta Hermosa, y el texto del aviso lo describe como Sumac Pacha – Lurín. El servidor de imágenes bloqueó la descarga.</p>
+        <div class="facts">
+          <div class="fact"><b>1,650 m²</b><span>total y techado</span></div>
+          <div class="fact"><b>USD 4,895</b><span>renta mensual (S/ 16,643)</span></div>
+          <div class="fact"><b>USD 2.97/m²</b><span>calculado sobre 1,650 m²</span></div>
+        </div>
+        <ul class="feats">
+          <li>Nave para almacenamiento. Altura de 7 m al hombro. Losa de concreto, apta para racks.</li>
+          <li>Portón a la calle. Agua, desagüe y energía. Extintores.</li>
+          <li>Contrato mínimo de 1 año, modalidad 2×1. El aviso indica que el valor incluye “55 de impuesto” (redacción del anuncio).</li>
+        </ul>
+        <a class="btn" href="https://urbania.pe/inmueble/clasificado/alclniin-alquiler-de-local-industrial-en-punta-hermosa-lima-150135600" target="_blank" rel="noopener">Ver anuncio</a>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+<section class="conclusion">
+  <h2>Conclusión técnica</h2>
+  <p>En Chorrillos, la oferta activa de naves y locales industriales se concentra en unidades de 500 a 1,600 m². En esa franja, los avisos revisados el 13 de noviembre de 2026 se mueven, en términos gruesos, entre unos USD 3,500 y USD 12,500 al mes, o su equivalente en soles. En la muestra quedan, por ejemplo, el almacén de 1,004 m² en Villa Marina a S/ 14,364, el local de 1,300 m² a S/ 22,500, la nave de 1,572 m² cerca de Prolongación Huaylas a USD 5/m² + IGV (USD 7,860 + IGV al mes) y el centro logístico de 1,400 m² en La Campiña a USD 10,500.</p>
+  <p>Las unidades de 3,000 m² o más son escasas en Chorrillos. La opción más clara en ese rango es el almacén de 3,300 m² en Av. Defensores del Morro 4263, a USD 24,750 + IGV (USD 7.50/m² + IGV, con mantenimiento incluido). Ese canon está muy por encima de un presupuesto de USD 5,000 mensuales para 3,000 a 3,500 m².</p>
+  <p>Como referencia de mercado, JLL, en su reporte <em>Lima – Industrial Stand Alone</em> (indicadores del 1T 2025), sitúa la renta promedio de locales en USD 6.50/m²/mes en Chorrillos, USD 5.00 en Lurín y USD 4.10 en Villa El Salvador. En las prácticas típicas del mismo informe, el IGV del arrendamiento (18 %) va a cargo del inquilino. A esos promedios, una necesidad de 3,000 m² equivaldría, solo de renta, a unos USD 19,500 + IGV en Chorrillos o USD 15,000 + IGV en Lurín, antes de mantenimiento u otros cargos.</p>
+  <p>El metraje grande aparece con más frecuencia en Lurín y, en menor medida, en Villa El Salvador. En San Pedro, Lurín, hay un local de 3,700 m² a USD 17,500 (unos USD 4.73/m²). En Praderas de Lurín, un predio de 4,786 m² —nave de 2,273 m², patios amplios, estructura para puente grúa y 11 m de altura— se pide a USD 5.50/m² + IGV, es decir USD 26,324 + IGV al mes. En Villa El Salvador, el taller de 1,542 m² ya viene con tres puentes grúa de 2 t y un pórtico de 10 t, a USD 12,500: el área es menor, pero es el inmueble más operativamente cercano a un taller de metalmecánica.</p>
+  <p>La implicación es directa: un requerimiento de 3,000 a 3,500 m² a USD 5,000 al mes queda por debajo del mercado, tanto de los promedios JLL como de los avisos vigentes. Si el presupuesto no se ajusta, las alternativas reales tienden a ser una unidad más chica en Chorrillos, o buscar el metraje en Lurín o Villa El Salvador, donde el USD/m² suele ser menor, aunque el canon total de las naves de 3,000 m² o más que se revisaron sigue siendo superior a USD 5,000.</p>
+  <p class="nota">Esta nota es una lectura de avisos públicos y de un reporte de mercado, no una tasación ni una confirmación de disponibilidad. Los precios pueden cambiar y, en varios casos, se les suma IGV u otros cargos.</p>
+</section>
+
+</main>
+<footer>
+  Revisión del 13 de noviembre de 2026, hora de Lima (America/Lima).<br>
+  Fuentes de avisos: <a href="https://urbania.pe/buscar/alquiler-de-locales-industriales-en-chorrillos--lima--lima">Urbania</a>, Adondevivir, InfoCasas, Bienesonline y LaEncontre.<br>
+  Referencia de rentas: JLL, <a href="https://www.jll.com/content/dam/jllcom/en/us/documents/reports/research-reports/25-insights-lima-industrial-es.pdf">Lima – Industrial Stand Alone, 1T 2025</a>.
+</footer>
+<script>
+(function(){
+  function setup(root){
+    var imgs=[].slice.call(root.querySelectorAll('img'));
+    if(!imgs.length) return;
+    var i=0, counter=root.querySelector('.counter'), dots=root.querySelector('.dots');
+    var prev=root.querySelector('.prev'), next=root.querySelector('.next');
+    if(dots){
+      imgs.forEach(function(_,k){
+        var b=document.createElement('button');
+        b.type='button';
+        b.setAttribute('aria-label','Foto '+(k+1));
+        if(k===0) b.className='on';
+        b.addEventListener('click', function(){ show(k); });
+        dots.appendChild(b);
+      });
+    }
+    function show(n){
+      i=(n+imgs.length)%imgs.length;
+      imgs.forEach(function(el,k){ el.classList.toggle('on', k===i); });
+      if(counter) counter.textContent=(i+1)+' / '+imgs.length;
+      if(dots) [].forEach.call(dots.children, function(d,k){ d.classList.toggle('on', k===i); });
+    }
+    if(prev) prev.addEventListener('click', function(){ show(i-1); });
+    if(next) next.addEventListener('click', function(){ show(i+1); });
+    var x0=null;
+    root.addEventListener('touchstart', function(e){ if(e.changedTouches[0]) x0=e.changedTouches[0].clientX; }, {passive:true});
+    root.addEventListener('touchend', function(e){
+      if(x0===null||!e.changedTouches[0]) return;
+      var dx=e.changedTouches[0].clientX-x0; x0=null;
+      if(Math.abs(dx)>40) show(i+(dx<0?1:-1));
+    }, {passive:true});
+  }
+  [].forEach.call(document.querySelectorAll('[data-carousel]'), setup);
+})();
+/* Recarga automática: si la página cambia, se recarga sola. */
+(function(){
+  if (location.protocol === 'file:') { setTimeout(function(){ location.reload(); }, 15000); return; }
+  var ultimo = null;
+  function revisar(){
+    fetch(location.href.split('#')[0], {cache:'no-store'}).then(function(r){ return r.text(); }).then(function(t){
+      if (ultimo !== null && t !== ultimo) { location.reload(); }
+      ultimo = t;
+    }).catch(function(){});
+  }
+  revisar(); setInterval(revisar, 10000);
+})();
+</script>
+</body>
+</html>
