@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Estudio de mercado V3 – Naves industriales en Chorrillos y alrededores</title>
+<title>Estudio de mercado V4 – Naves industriales en Chorrillos y alrededores</title>
 <style>
 :root{--azul:#1e4e8c;--azul2:#e8eef7;--gris:#5b6472;--amar:#fff3c4;--borde:#d7dde6;--fondo:#f5f7fa}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1f2933;background:var(--fondo);line-height:1.55}
 .topbar{background:#163a6b;color:#fff;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;text-align:center}
-.topbar .v3{display:inline-block;margin-left:8px;background:rgba(255,255,255,.18);padding:1px 8px;border-radius:99px;letter-spacing:.08em}
+.topbar .v4{display:inline-block;margin-left:8px;background:rgba(255,255,255,.18);padding:1px 8px;border-radius:99px;letter-spacing:.08em}
 header{background:var(--azul);color:#fff;padding:32px 20px 26px}
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
 header .tag{display:inline-block;background:rgba(255,255,255,.18);padding:3px 10px;border-radius:99px;font-size:13px;letter-spacing:.04em}
@@ -38,6 +38,9 @@ h2{color:var(--azul);font-size:21px;margin:0 0 12px}
 .dots button{width:8px;height:8px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.55);cursor:pointer}
 .dots button.on{background:#fff}
 .meta{padding:16px 18px 18px}
+.badge-nuevo{display:inline-block;background:var(--amar);color:#1a3a66;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:99px;margin:0 0 8px 6px}
+.badges{display:flex;align-items:center;flex-wrap:wrap;gap:0}
+.carousel .nuevo-tag{position:absolute;top:10px;right:10px;background:var(--amar);color:#1a3a66;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;border-radius:99px;z-index:2;box-shadow:0 1px 4px rgba(15,30,55,.2)}
 .badge{display:inline-block;background:var(--azul);color:#fff;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:99px;margin:0 0 8px}
 .meta .dist{font-size:13px;color:var(--azul);font-weight:600;letter-spacing:.02em;text-transform:uppercase;margin:0 0 4px}
 .meta h3{margin:0 0 10px;font-size:19px;color:#1f2933}
@@ -60,9 +63,9 @@ footer a{color:var(--azul)}
 </style>
 </head>
 <body>
-<div class="topbar">Estudio de mercado <span class="v3">V3</span></div>
+<div class="topbar">Estudio de mercado <span class="v4">V4</span></div>
 <header><div class="wrap">
-  <span class="tag">CHORRILLOS Y ALREDEDORES · 13 NOV 2026 · V3</span>
+  <span class="tag">CHORRILLOS Y ALREDEDORES · 13 NOV 2026 · V4</span>
   <h1>Estudio de mercado: alquiler de naves industriales</h1>
   <p>Muestra de avisos vigentes en Chorrillos, Lurín y Villa El Salvador (Lima).</p>
 </div></header>
@@ -71,9 +74,9 @@ footer a{color:var(--azul)}
 
 <section>
   <h2>Alcance de esta revisión</h2>
-  <p>Se revisaron avisos de alquiler de naves, almacenes y locales industriales publicados en Urbania, Adondevivir, InfoCasas, Bienesonline, LaEncontre y Contigo Propiedades, el 13 de noviembre de 2026 (hora de Lima). Abajo va una muestra de ocho avisos con fotos, con Chorrillos primero y ordenados por área. Los precios y características se tomaron de cada ficha; no se inventaron cifras.</p>
+  <p>Se revisaron avisos de alquiler de naves, almacenes y locales industriales publicados en Urbania, Adondevivir, InfoCasas, Bienesonline, LaEncontre y Contigo Propiedades, el 13 de noviembre de 2026 (hora de Lima). Abajo va una muestra de diez avisos con fotos, con Chorrillos primero y ordenados por área. Los precios y características se tomaron de cada ficha; no se inventaron cifras.</p>
   <div class="kpis">
-    <div class="kpi"><b>8 avisos</b><span>en esta muestra, todos con fotos</span></div>
+    <div class="kpi"><b>10 avisos</b><span>en esta muestra, todos con fotos</span></div>
     <div class="kpi"><b>1,004 a 3,700 m²</b><span>rango de áreas de la muestra</span></div>
     <div class="kpi"><b>Chorrillos primero</b><span>luego Villa El Salvador y Lurín, por m²</span></div>
     <div class="kpi"><b>+ IGV</b><span>cuando el aviso lo indica</span></div>
@@ -203,7 +206,36 @@ footer a{color:var(--azul)}
       </div>
     </li>
 
+    
     <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/cho2100a-01.jpg" alt="Patio y local semi-industrial de 2,100 m² en Chorrillos">
+        <span class="nuevo-tag">Nuevo</span>
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 1</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <div class="badges"><div class="badge">Aviso 5</div><div class="badge-nuevo">Nuevo</div></div>
+        <p class="dist">Chorrillos</p>
+        <h3>Local semi-industrial, Chorrillos — 2,100 m²</h3>
+        <div class="facts">
+          <div class="fact"><b>2,100 m²</b><span>área total</span></div>
+          <div class="fact"><b>S/ 32,250 · USD 9,500 + IGV</b><span>renta mensual</span></div>
+          <div class="fact"><b>USD 4.50/m² + IGV</b><span>precio por m² del aviso</span></div>
+        </div>
+        <ul class="feats">
+          <li>Local semi-industrial y comercial, con doble ingreso.</li>
+          <li>Nave de 500 m², oficinas de 500 m² y almacenes de 345 m².</li>
+          <li>4 baños y 25 estacionamientos, según el aviso.</li>
+          <li>Muros de 5 m, dos portones de 5 × 5 m, caseta de control, recepción y sala de espera.</li>
+          <li>Oficinas en 3 pisos, salas de conferencia, kitchenette y comedor. Luz trifásica, agua y desagüe.</li>
+        </ul>
+      </div>
+    </li>
+
+<li class="card">
       <div class="carousel" data-carousel>
         <img class="on" src="fotos/cho2100b-02.jpg" alt="Interior de almacén de 2,100 m² en Chorrillos">
         <img src="fotos/cho2100b-01.jpg" alt="Patio de maniobras del almacén en Chorrillos">
@@ -215,7 +247,7 @@ footer a{color:var(--azul)}
         <div class="dots"></div>
       </div>
       <div class="meta">
-        <div class="badge">Aviso 5</div>
+        <div class="badge">Aviso 6</div>
         <p class="dist">Chorrillos</p>
         <h3>Almacén, Chorrillos — 2,100 m²</h3>
         <div class="facts">
@@ -247,7 +279,7 @@ footer a{color:var(--azul)}
         <div class="dots"></div>
       </div>
       <div class="meta">
-        <div class="badge">Aviso 6</div>
+        <div class="badge">Aviso 7</div>
         <p class="dist">Chorrillos</p>
         <h3>Almacén, Chorrillos — 2,500 m²</h3>
         <div class="facts">
@@ -257,6 +289,35 @@ footer a{color:var(--azul)}
         </div>
         <ul class="feats">
           <li>2,000 m² de almacén (nave industrial) y 500 m² de patio de maniobras.</li>
+
+    <li class="card">
+      <div class="carousel" data-carousel>
+        <img class="on" src="fotos/cho2563-01.jpg" alt="Interior de nave industrial de 2,563 m² en Chorrillos">
+        <span class="nuevo-tag">Nuevo</span>
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+        <button class="nav next" type="button" aria-label="Foto siguiente">›</button>
+        <div class="counter">1 / 1</div>
+        <div class="dots"></div>
+      </div>
+      <div class="meta">
+        <div class="badges"><div class="badge">Aviso 8</div><div class="badge-nuevo">Nuevo</div></div>
+        <p class="dist">Chorrillos</p>
+        <h3>Nave industrial, Chorrillos — 2,563 m²</h3>
+        <div class="facts">
+          <div class="fact"><b>2,563 m²</b><span>área total</span></div>
+          <div class="fact"><b>S/ 48,000 · USD 14,000</b><span>renta mensual</span></div>
+          <div class="fact"><b>USD 5.46/m²</b><span>calculado sobre 2,563 m²</span></div>
+        </div>
+        <ul class="feats">
+          <li>1,690 m² de almacén techado, con 10 m de altura, y 190 m² de oficinas.</li>
+          <li>Tres naves interconectadas, patio de maniobras con losa de concreto e ingreso para camiones y contenedores.</li>
+          <li>3 baños y 5 estacionamientos, según el aviso.</li>
+          <li>Zonificación VT. Ideal para importadoras, distribuidoras y operadores logísticos.</li>
+        </ul>
+      </div>
+    </li>
+
+
           <li>Altura de techos: 5.00 m. Losa de concreto y parte pavimentada.</li>
           <li>Entrada independiente con portón; permite el ingreso de plataformas con contenedores.</li>
           <li>2 baños, 1 medio baño y 6 estacionamientos, según el aviso.</li>
@@ -279,7 +340,7 @@ footer a{color:var(--azul)}
         <div class="dots"></div>
       </div>
       <div class="meta">
-        <div class="badge">Aviso 7</div>
+        <div class="badge">Aviso 9</div>
         <p class="dist">Villa El Salvador</p>
         <h3>Taller industrial, Villa El Salvador — 1,542 m²</h3>
         <div class="facts">
@@ -310,7 +371,7 @@ footer a{color:var(--azul)}
         <div class="dots"></div>
       </div>
       <div class="meta">
-        <div class="badge">Aviso 8</div>
+        <div class="badge">Aviso 10</div>
         <p class="dist">Lurín</p>
         <h3>Local industrial, Lurín — 3,700 m²</h3>
         <div class="facts">
@@ -337,17 +398,17 @@ footer a{color:var(--azul)}
       Tu navegador no reproduce audio. Puedes <a href="conclusion.mp3">descargar el archivo</a>.
     </audio>
   </div>
-  <p>En Chorrillos, la oferta activa de naves y locales industriales se concentra en unidades de 500 a 1,600 m², y en esta revisión también aparece una franja de 2,000 a 2,500 m². En los avisos con fotos revisados el 13 de noviembre de 2026, los locales medianos se mueven, en términos gruesos, entre unos USD 3,500 y USD 12,500 al mes, o su equivalente en soles. En la muestra quedan, por ejemplo, un almacén de 1,004 m² en Chorrillos a S/ 14,364, un local de 1,300 m² a S/ 22,500, una nave de 1,572 m² a USD 5/m² + IGV (USD 7,860 + IGV al mes) y un centro logístico de 1,400 m² a USD 10,500 (S/ 37,500 en el aviso).</p>
-  <p>En el rango de 2,000 a 2,500 m² hay, en Chorrillos, un almacén de 2,100 m² a USD 10,900 + IGV (unos USD 5.19/m² + IGV), con unos 800 m² techados y 6.5 m de altura, y un almacén de 2,500 m² a USD 15,000 (incluido un 5 %), a USD 6.00/m², con 2,000 m² de nave, 500 m² de patio y 5 m de altura. Un presupuesto de USD 5,000 mensuales para 3,000 a 3,500 m² queda por debajo de esos cánones, aun cuando el metraje de esos dos avisos es menor al requerido.</p>
+  <p>En Chorrillos, la oferta activa de naves y locales industriales se concentra en unidades de 500 a 1,600 m², y en esta revisión también aparece una franja de 2,000 a 2,600 m². En los avisos con fotos revisados el 13 de noviembre de 2026, los locales medianos se mueven, en términos gruesos, entre unos USD 3,500 y USD 12,500 al mes, o su equivalente en soles. En la muestra quedan, por ejemplo, un almacén de 1,004 m² en Chorrillos a S/ 14,364, un local de 1,300 m² a S/ 22,500, una nave de 1,572 m² a USD 5/m² + IGV (USD 7,860 + IGV al mes) y un centro logístico de 1,400 m² a USD 10,500 (S/ 37,500 en el aviso).</p>
+  <p>En el rango de 2,000 a 2,600 m², los avisos de Chorrillos se mueven entre USD 9,500 y USD 15,000 al mes. El más económico de esa franja es un local semi-industrial de 2,100 m² a USD 9,500 + IGV, unos USD 4.50/m² + IGV. En el mismo metraje hay otro almacén de 2,100 m² a USD 10,900 + IGV (unos USD 5.19/m² + IGV), con unos 800 m² techados y 6.5 m de altura. Más arriba aparecen una nave de 2,563 m² a USD 14,000 (USD 5.46/m²), con 1,690 m² techados y 10 m de altura, y un almacén de 2,500 m² a USD 15,000 (incluido un 5 %), a USD 6.00/m², con 2,000 m² de nave, 500 m² de patio y 5 m de altura. Un presupuesto de USD 5,000 mensuales para 3,000 a 3,500 m² queda por debajo de esos cánones, aun cuando el metraje de estos avisos es menor al requerido.</p>
   <p>Como referencia de mercado, JLL, en su reporte <em>Lima – Industrial Stand Alone</em> (indicadores del 1T 2025), sitúa la renta promedio de locales en USD 6.50/m²/mes en Chorrillos, USD 5.00 en Lurín y USD 4.10 en Villa El Salvador. En las prácticas típicas del mismo informe, el IGV del arrendamiento (18 %) va a cargo del inquilino. A esos promedios, una necesidad de 3,000 m² equivaldría, solo de renta, a unos USD 19,500 + IGV en Chorrillos o USD 15,000 + IGV en Lurín, antes de mantenimiento u otros cargos.</p>
   <p>Las unidades de 3,000 m² o más son escasas en Chorrillos en esta muestra con fotos. El metraje grande aparece con más claridad en Lurín: hay un local de 3,700 m² a USD 17,500 (unos USD 4.73/m²). En Villa El Salvador, el taller de 1,542 m² ya viene con tres puentes grúa de 2 t y un pórtico de 10 t, a USD 12,500: el área es menor, pero es el inmueble más operativamente cercano a un taller de metalmecánica.</p>
-  <p>La implicación es directa: un requerimiento de 3,000 a 3,500 m² a USD 5,000 al mes queda por debajo del mercado, tanto de los promedios JLL como de los avisos vigentes, incluido el rango de 2,000 a 2,500 m² en Chorrillos. Si el presupuesto no se ajusta, las alternativas reales tienden a ser una unidad más chica en Chorrillos, o buscar el metraje en Lurín o Villa El Salvador, donde el USD/m² suele ser menor, aunque el canon total de la nave de 3,000 m² o más que se revisó sigue siendo superior a USD 5,000.</p>
+  <p>La implicación es directa: un requerimiento de 3,000 a 3,500 m² a USD 5,000 al mes queda por debajo del mercado, tanto de los promedios JLL como de los avisos vigentes, incluido el rango de 2,000 a 2,600 m² en Chorrillos. Si el presupuesto no se ajusta, las alternativas reales tienden a ser una unidad más chica en Chorrillos, o buscar el metraje en Lurín o Villa El Salvador, donde el USD/m² suele ser menor, aunque el canon total de la nave de 3,000 m² o más que se revisó sigue siendo superior a USD 5,000.</p>
   <p class="nota">Esta nota es una lectura de avisos públicos y de un reporte de mercado, no una tasación ni una confirmación de disponibilidad. Los precios pueden cambiar y, en varios casos, se les suma IGV u otros cargos. Solo se incluyeron avisos con fotos descargables.</p>
 </section>
 
 </main>
 <footer>
-  Estudio de mercado V3. Revisión del 13 de noviembre de 2026, hora de Lima (America/Lima).<br>
+  Estudio de mercado V4. Revisión del 13 de noviembre de 2026, hora de Lima (America/Lima).<br>
   Fuentes de avisos: Urbania, Adondevivir, InfoCasas, Bienesonline, LaEncontre y Contigo Propiedades.<br>
   Referencia de rentas: JLL, <a href="https://www.jll.com/content/dam/jllcom/en/us/documents/reports/research-reports/25-insights-lima-industrial-es.pdf">Lima – Industrial Stand Alone, 1T 2025</a>.
 </footer>
